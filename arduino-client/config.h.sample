@@ -1,0 +1,12 @@
+#define WIFI_SSID   "" // WiFi Username
+#define WIFI_PASS   "" // WiFi Password
+
+#define PATH   "http://192.168.10.90:3020" // The path to get tasks from
+
+#define TX_PIN 6 // Arduino transmit  YELLOW WIRE  labeled RX on printer
+#define RX_PIN 5 // Arduino receive   GREEN WIRE   labeled TX on printer
+
+#define PRINTER_BAUD 9600
+#define SERIAL_BAUD 19200
+
+#define JSON_BUFFER_SIZE    8192 // The max JSON buffer size for incoming tasks
